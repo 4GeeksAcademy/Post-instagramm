@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor-padre {
+  background-color: white;
+  width: 400px;
+  height: 570px;
+}
+
+.contenedor-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px;
+}
+
+.header-logo {
+  display: flex;
+  width: 50%;
+}
+.contenedor-logo {
+  font-size: 25px;
+  margin-top: 4px;
+  margin-right: 3px;
+}
+
+.contenedor-usuario p {
+  text-align: center;
+  margin: 0%;
+  margin-left: 7%;
+  font-size: 14px;
+}
+
+.contenedor-puntos {
+  font-size: 28px;
+  text-align: center;
+}
+
+.footer {
+  padding: 10px;
+}
+.footer-iconos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconos {
+  font-size: 28px;
+}
+.icono-guardar {
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.parrafo1{
+    font-size: 15px;
+}
